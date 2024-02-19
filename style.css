@@ -1,14 +1,32 @@
-.nombre {
-    width: 50px;
-    padding : 2px;
-    padding-bottom: 3em;
-    border: 1px solid black;
-    margin: auto;
-    vertical-align: center;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body {
+    margin: auto 540px;
 }
 
+.nombre {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+    margin: 5px;
+}
+.nombres{
+max-width: 600px;
+}
+.par10{
+
+
+}
 .cache {
-    visibility: hidden;
+   /* visibility: hidden;*/
 }
 
 .erreur {
